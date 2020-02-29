@@ -22,15 +22,6 @@ if [ -z "$AWS_DEFAULT_REGION" ]; then
   exit 1
 fi
 
-if [ -z "$SOURCE_DIR" ]; then
-  echo "SOURCE_DIR is not set. Quitting."
-  exit 1
-fi
-
-if [ -z "$DIST_DIR" ]; then
-  echo "DIST_DIR is not set. Quitting."
-  exit 1
-fi
 
 if [ -z "$PROJECT_NAME" ]; then
   echo "PROJECT_NAME is not set. Quitting."
