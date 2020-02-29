@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-      - uses: turnercode/s3-docusaurus-sync-action@master
+      - uses: turnerlabs/s3-docusaurus-sync-action@master
         env:
           AWS_DEFAULT_REGION: "us-east-1"
           AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
