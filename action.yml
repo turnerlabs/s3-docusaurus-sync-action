@@ -1,0 +1,9 @@
+name: "Docusaurus S3 Sync"
+description: "Builds and syncs Docusaurus site to S3 bucket"
+author: brockmdavis
+runs:
+  using: docker
+  image: Dockerfile
+branding:
+  icon: refresh-cw
+  color: green
